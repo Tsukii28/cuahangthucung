@@ -1,0 +1,65 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+build/
+.idea/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android
+/android/app/src/main/assets/flutter_assets/
+/android/app/build/
+/android/.gradle/
+/android/gradle/
+/android/local.properties
+/android/key.properties
+
+# iOS
+/ios/Flutter/App.framework
+/ios/Flutter/flutter_assets/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/Debug.xcconfig
+/ios/Flutter/Release.xcconfig
+/ios/Pods/
+/ios/Runner.xcworkspace/
+/ios/Runner/GeneratedPluginRegistrant.h
+/ios/Runner/GeneratedPluginRegistrant.m
+/ios/Runner/Base.lproj/Main.storyboard
+/ios/Podfile.lock
+
+# Windows
+/windows/flutter/ephemeral/
+/windows/flutter/generated_plugins.cmake
+/windows/CMakeLists.txt.user
+/windows/runner/Debug/
+/windows/runner/Release/
+/windows/runner/Profile/
+/windows/.vs/
+
+# Linux
+/linux/flutter/ephemeral/
+/linux/flutter/generated_plugins.cmake
+/linux/CMakeLists.txt.user
+
+# macOS
+/macos/flutter/ephemeral/
+/macos/Flutter/Generated.xcconfig
+/macos/Flutter/Debug.xcconfig
+/macos/Flutter/Release.xcconfig
+/macos/Pods/
+/macos/Podfile.lock
+/macos/Runner.xcworkspace/
