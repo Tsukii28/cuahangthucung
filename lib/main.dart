@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'screens/booking/booking_screen.dart';
-import 'screens/home/home_screen.dart';
 import 'screens/profile/profile_screen.dart';
-import 'screens/store/store_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -39,9 +37,6 @@ class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0; // Start with home screen
 
   final List<Widget> _screens = [
-    const HomeScreen(),
-    const BookingScreen(),
-    const StoreScreen(),
     const ProfileScreen(),
   ];
 
@@ -54,6 +49,17 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Pet App'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.notifications_outlined),
+            onPressed: () {
+              // TODO: Handle notification tap
+            },
+          ),
+        ],
+      ),
       body: _screens[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
